@@ -1,0 +1,154 @@
+div.plan-name{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+div.price-plan{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.plan-description{
+	font-size: 11px;
+	font-style: italic;
+}
+
+a.button_buy{
+	color:#;
+}
+
+div.views-field.views-field-field-description{
+	min-height: 50px;
+}
+
+div.views-field.views-field-field-code{
+	margin-left: 14px;
+}
+
+@media only screen and (min-width: 1024px) {
+    div.views-field.views-field-field-description{
+		margin-top: -30px;
+		margin-bottom: 10px;
+		margin-left: 15px;
+		font-size: 12px;
+	}
+}
+
+/* module captive_portal*/
+/* Options page */
+#options {
+	padding:10px 0px;
+}
+.box-options{
+	padding:5px 0px;
+}
+.but-page{
+	padding-bottom: 30px;
+}
+.message-conf{
+	padding-bottom: 15px;
+}
+
+/**/
+.action-links .button--primary:hover, .adminimal .action-links .button--primary:focus {
+    color: #fff;
+    box-shadow: none;
+    background-image: none;
+    background-color: #327EBD;
+}
+
+.action-links .button--primary {
+    color: #327EBD;
+    background: #fff;
+    font-size: 14px;
+    padding: 0.33rem 1.33rem;
+    border: 2px solid #327ebd;
+    font-family: sans-serif;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.button--primary:hover, .adminimal .button--primary:focus {
+    background-image: none;
+    background-color: #1f86c7;
+    border-color: #1f86c7;
+}
+
+/* */
+
+.navbar-default {
+    background-color: #fdbd0f;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+
+.navbar-toggle {
+    background-color: white;
+   
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #fdbd0f;
+}
+
+/* */
+
+.box-options > div.box-title {
+		font-size: 18px;
+}
+
+
+.panel {
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.05); 
+    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.05); 
+}
+
+ div.views-field.views-field-field-description{
+		margin-left: 15px;
+		font-size: 12px;
+	}
+
+
+.footer-wrapper{
+	background-color: #fdbd0f;
+}	
+
+.views-view-list-group{
+	padding-left: 0px;
+}
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .list-group-item {
+    	float: left;
+    }
+    .view-plans{
+    	float: left;
+    	min-height: 260px;
+    }
+    .views-field-field-name-plan, .views-field-field-price {
+    	width: 49%;
+    	float: left;
+    }
+    div.views-field.views-field-field-code{
+    	float: left;
+    	width: 40%;
+    }
+    div.views-field.views-field-field-description{
+	    float: left;
+    	width: 100%;
+    	padding-top: 20px;
+    	margin-left: 0px;
+    }
+    .block-confirmation,.text-muted{
+    	min-height: 270px;
+    }
+    
+}

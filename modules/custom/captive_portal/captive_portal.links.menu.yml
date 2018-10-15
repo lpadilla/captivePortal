@@ -1,0 +1,6 @@
+captive_portal.captive_billing_payment_settings:
+  title: 'Captive Portal Billing'
+  route_name: captive_portal.bill_payment_settings
+  description: 'Menu for billing configuration for Captive Portal'
+  parent: system.admin_config_system
+  weight: 99

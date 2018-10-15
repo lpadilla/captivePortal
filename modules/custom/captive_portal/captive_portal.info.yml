@@ -1,0 +1,6 @@
+name: 'captive_portal'
+type: module
+description: 'Captive portal module to plans mobile'
+core: 8.x
+package: 'Custom'
+

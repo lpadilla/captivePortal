@@ -1,0 +1,34 @@
+captive_portal.my_options:
+  path: '/plans/operations/{user}'
+  defaults:
+    _controller: '\Drupal\captive_portal\Controller\page_options::options'
+    _title: 'Select a Option'
+  requirements:
+    _permission: 'access content'
+
+
+captive_portal.cofirmation:
+  path: '/plans/confirmation/{plan}'
+  defaults:
+    _controller: '\Drupal\captive_portal\Controller\page_options::confirmation'
+    _title: 'Confirmation!'
+  requirements:
+    _permission: 'access content'    
+
+captive_portal.success_page:
+  path: '/plans/success'
+  defaults:
+    _controller: '\Drupal\captive_portal\Controller\success_page::options'
+    _title: 'Success!'
+  requirements:
+    _permission: 'access content'
+
+captive_portal.bill_payment_settings:
+  path: '/admin/config/payment/settings'
+  defaults:
+    _form: '\Drupal\captive_portal\Form\BillingPaymentSettings'
+    _title: 'BillingPaymentSettings'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

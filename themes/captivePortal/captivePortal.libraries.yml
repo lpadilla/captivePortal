@@ -1,0 +1,10 @@
+global-styling:
+  css:
+    theme:
+      css/theme/css/captivePortal.css: {}  
+
+global-scripts:
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery

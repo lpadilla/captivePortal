@@ -1,0 +1,22 @@
+uuid: 22350c7d-a231-463d-aa2b-c4c5918dab66
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: g6YYpzFZX4QrjVATrNupsg-yaOBBHmE9xb5wwwG9wCk
+id: node.field_short_code_sms
+field_name: field_short_code_sms
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

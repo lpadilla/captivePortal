@@ -1,0 +1,29 @@
+name: Captive Portal theme
+type: theme
+description: Base theme for Vardot standard websites. Based on Bootstrap 3 and less css
+core: 8.x
+
+base theme: vartheme
+
+package: 'Varbase'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  hero_slider: 'Media Hero Slider'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+# Bootstrap styles and scripts libraries.
+  - vartheme/bootstrap-styles
+  - vartheme/bootstrap-scripts
+  - captivePortal/global-styling
+  - captivePortal/global-scripts

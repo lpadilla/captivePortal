@@ -1,0 +1,23 @@
+uuid: 543f3a0d-85ec-4209-9c8c-be9b4488c666
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: MW0JdMN75kmExwjWT04BLfvW1gMKJNZCoNwAcWV4jE4
+id: node.field_name_plan
+field_name: field_name_plan
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,55 @@
+<?php
+
+/**
+ * @file
+ * Contains captive_portal.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function captive_portal_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the captive_portal module.
+    case 'help.page.captive_portal':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Captive portal module to plans mobile') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function captive_portal_theme($existing, $type, $theme, $path) {
+  return [
+    'captive_portal' => [
+      'render element' => 'children',
+      'variables'=> [
+        'msisdn' => null,
+        'balance' => null,
+        'subscriber' => null,
+        'status' => null,
+      ]
+    ],
+    'success_page' => [
+      'render element' => 'children',
+      'variables'=> [
+        'msisdn' => null,
+      ]
+    ],
+    'confirmation-page' => [
+      'render element' => 'children',
+      'variables'=> [
+        'price' => NULL,
+        'title_page' => NULL,
+        'ret_page' => NULL,
+      ]
+    ],
+  ];
+}

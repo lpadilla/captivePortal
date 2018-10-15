@@ -1,0 +1,32 @@
+uuid: 2d00470c-4cbc-4657-8c44-75c89e97c27f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: TR3rNECpcEohidrQE8onchBrfAB33kTonJyFMorC-B0
+id: node.field_category_plan
+field_name: field_category_plan
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: balance
+      label: Balance
+    -
+      value: data
+      label: Data
+    -
+      value: multimedia
+      label: Multimedia
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

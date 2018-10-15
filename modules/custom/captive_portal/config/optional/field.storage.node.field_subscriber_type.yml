@@ -1,0 +1,33 @@
+uuid: 34db3cb6-de46-47cc-b7a5-d6e3eee45bab
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_subscriber_type
+field_name: field_subscriber_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: PRE
+      label: PRE-PAY
+    -
+      value: POS
+      label: POS-PAY
+    -
+      value: HYB
+      label: HYBRID
+    -
+      value: OTHER
+      label: OTHER
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

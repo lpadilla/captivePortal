@@ -1,0 +1,28 @@
+<!-- Add you custom twig html here -->
+
+{% if status == 'offline' %}
+	<div id="alert" class="alert alert-danger" role="alert">Your device is offline</div>
+{% endif %}
+
+<div class="text-muted">
+	<div>
+		Hi <b id="msisdn">{{msisdn }}</b>
+	</div>
+	<div >
+		Your balance is: <b id="balance">{{ balance }}</b>
+	</div>
+	<div id="options" >
+		<div id="option_area" class="box-options" >
+			<div class="box-title"><a id="url_plans" href='/plans/list/{{ subscriber }}'>Buy a Plan</a></div>
+			<div id="" class="box-text">Buy one of the available plans that suits you</div>
+		</div>
+		<div id="option_area2" class="box-options" >
+			<div id="" class="box-title"><a href='#'>Buy balance</a></div>
+			<div id="" class="box-text">Get balance</div>
+		</div>
+		<div id="option_area3" class="box-options" >
+			<div id="" class="box-title"><a href='#'>Borrow</a></div>
+			<div id="" class="box-text">Borrow balance from a friend</div>
+		</div>
+	</div>
+</div>

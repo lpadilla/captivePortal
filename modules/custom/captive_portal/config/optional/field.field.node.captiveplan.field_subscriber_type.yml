@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subscriber_type
+    - node.type.captiveplan
+  module:
+    - options
+id: node.captiveplan.field_subscriber_type
+field_name: field_subscriber_type
+entity_type: node
+bundle: captiveplan
+label: 'Subscriber type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

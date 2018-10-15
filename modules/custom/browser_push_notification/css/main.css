@@ -1,0 +1,94 @@
+.ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix{
+  background-color: #fdbd0f;
+}
+
+/* Change the margin of the pop and width*/
+.bpn-model-popup {
+  top: 25% !important;
+  width: 80% !important;
+  left: 10% !important;
+}
+
+/* Css for PopUp */
+.bpn-model-popup .ui-widget-header,
+.bpn-model-popup .ui-widget-content {
+  border: none !important;
+}
+
+/* Change the width of the Model PopUp */
+.bpn-model-popup .ui-dialog-title {
+  width: 94%;
+}
+.ui-dialog .ui-dialog-content {
+  padding: 0px;
+}
+/* Css for the Button set of popup */
+.bpn-model-popup .ui-dialog-buttonset {
+  float: none !important;
+}
+
+/* Remove unwanted fields from the data*/
+.bpn-model-popup .bpn_message_div {
+  display: none !important;
+}
+
+/* Css for the Allow Button of popup */
+.bpn-model-popup .button--allow {
+  text-decoration: none !important;
+  font-weight: bold !important;
+  display: inline-block !important;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  background: #fdbd0f !important;
+  text-align: center !important;
+  line-height: 20px !important;
+  height: 30px !important;
+  font-size: 13px !important;
+  width: 86px !important;
+}
+
+@media only screen and (max-width: 320px){
+    .bpn-model-popup .button--allow {
+      margin-left: 15% !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 425px){
+    .bpn-model-popup .button--allow {
+      margin-left: 20% !important;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .bpn-model-popup .button--allow {
+      margin-left: 33% !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1440px){
+    .bpn-model-popup .button--allow {
+      margin-left: 39% !important;
+    }
+}
+
+@media only screen and (min-width: 1441px){
+    .bpn-model-popup .button--allow {
+      margin-left: 44% !important;
+    }
+}
+
+
+/* Css for the Cancel Button of popup */
+.bpn-model-popup .button--cancel {
+  text-decoration: none !important;
+  font-weight: bold !important;
+  display: inline-block !important;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  background: #7d7d7d !important;
+  text-align: center !important;
+  line-height: 21px !important;
+  height: 30px !important;
+  font-size: 13px !important;
+  width: 80px !important;
+  margin-left: 0% !important;
+}

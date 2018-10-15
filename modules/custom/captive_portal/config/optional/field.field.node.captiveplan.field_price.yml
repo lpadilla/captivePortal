@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.captiveplan
+id: node.captiveplan.field_price
+field_name: field_price
+entity_type: node
+bundle: captiveplan
+label: price
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: Bsf
+  suffix: ''
+field_type: float

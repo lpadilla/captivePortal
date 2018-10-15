@@ -1,0 +1,14 @@
+{
+  "name": "drupal/captive_portal",
+  "type": "drupal-module",
+  "description": "Captive portal module to plans mobile",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/captive_portal",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/captive_portal",
+    "source": "http://cgit.drupalcode.org/captive_portal"
+  },
+  "require": { }
+}

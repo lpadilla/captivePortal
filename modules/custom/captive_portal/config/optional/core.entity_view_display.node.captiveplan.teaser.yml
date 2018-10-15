@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.captiveplan.body
+    - field.field.node.captiveplan.field_category_plan
+    - field.field.node.captiveplan.field_code
+    - field.field.node.captiveplan.field_description
+    - field.field.node.captiveplan.field_name_plan
+    - field.field.node.captiveplan.field_short_code_sms
+    - field.field.node.captiveplan.field_short_description
+    - field.field.node.captiveplan.field_url_externo
+    - field.field.node.captiveplan.field_weight
+    - node.type.captiveplan
+  module:
+    - text
+    - user
+id: node.captiveplan.teaser
+targetEntityType: node
+bundle: captiveplan
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_category_plan: true
+  field_code: true
+  field_description: true
+  field_name_plan: true
+  field_short_code_sms: true
+  field_short_description: true
+  field_url_externo: true
+  field_weight: true
